@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/")
+@RequestMapping("/tiendas")
 public class TiendaController extends GenericController<Tienda, TiendaDto> {
     private final TiendaService service;
 

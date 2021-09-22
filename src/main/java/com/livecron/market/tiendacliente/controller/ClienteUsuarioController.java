@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/")
+@RequestMapping("/clienteusuarios")
 public class ClienteUsuarioController extends GenericController<ClienteUsuario, ClienteUsuarioDto> {
     private final ClienteUsuarioService service;
 
