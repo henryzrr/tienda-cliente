@@ -12,5 +12,8 @@ import com.livecron.market.generics.DtoBase;
 @Getter
 @Setter
 public class ClienteUsuarioDto extends DtoBase<ClienteUsuario> {
-
+    private String nombre;
+    private String email;
+    private String telefono;
+    private String ci;
 }

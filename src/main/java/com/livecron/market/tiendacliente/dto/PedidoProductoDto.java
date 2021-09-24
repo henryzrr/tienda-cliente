@@ -9,8 +9,9 @@ import lombok.Setter;
 import com.livecron.market.tiendacliente.model.PedidoProducto;
 import com.livecron.market.generics.DtoBase;
 
+
 @Getter
 @Setter
 public class PedidoProductoDto extends DtoBase<PedidoProducto> {
-
+    private PedidoDto pedido;
 }

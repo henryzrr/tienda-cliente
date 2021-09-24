@@ -16,5 +16,8 @@ import com.livecron.market.tiendacliente.dto.ClienteUsuarioDto;
 @Setter
 @Entity
 public class ClienteUsuario extends ModelBase<ClienteUsuarioDto> {
-
+    private String nombre;
+    private String email;
+    private String telefono;
+    private String ci;
 }
